@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+usage() {
+  echo "Usage: srm [-r] <path> [<path> ...]" >&2
+  exit 1
+}
+
+# 參數
+recursive=false
+while getopts ":r" opt; do
+  case "$opt" in
+    r) recursive=true ;;
+    *) usage ;;
+  esac
+done
+shift $((OPTIND-1))
+(( $# >= 1 )) || usage
+
+TRASH_ROOT="$HOME/.trash"
+TRASH_FILES="$TRASH_ROOT/files"
+TRASH_META="$TRASH_ROOT/meta"
+mkdir -p "$TRASH_FILES" "$TRASH_META"
+
+date_ymd="$(date +%F)"
+pid="$$"
+
+# 計算大小（bytes）
+size_bytes() {
+  local p="$1"
+  if [ -d "$p" ]; then
+    du -sb "$p" | awk '{print $1}'
+  else
+    # GNU stat
+    stat -c %s "$p" 2>/dev/null || wc -c <"$p"
+  fi
+}
+
+gen_key() {
+  local base="$1"
+  local counter=0
+  local key
+  while :; do
+    key="${base}.${date_ymd}.${pid}.${counter}"
+    if [ ! -e "${TRASH_FILES}/${key}.tar.gz" ] && [ ! -e "${TRASH_META}/${key}_meta.csv" ]; then
+      echo "$key"
+      return
+    fi
+    counter=$((counter+1))
+  done
+}
+
+trash_one() {
+  local path="$1"
+  if [ ! -e "$path" ]; then
+    echo "srm: $path: No such file or directory" >&2
+    return 1
+  fi
+
+  if [ -d "$path" ] && [ "$recursive" != true ]; then
+    echo "srm: cannot remove $path, is a directory (use -r to trash recursively)" >&2
+    return 1
+  fi
+
+  local abs
+  abs="$(readlink -f "$path")"
+  local base
+  base="$(basename "$abs")"
+  local bdir
+  bdir="$(dirname "$abs")"
+
+  local key
+  key="$(gen_key "$base")"
+
+  local size
+  size="$(size_bytes "$abs")"
+  local iso
+  iso="$(date --iso-8601=seconds)"
+
+  # 打包壓縮
+  local payload="${TRASH_FILES}/${key}.tar.gz"
+  tar -czf "$payload" -C "$bdir" "$base"
+
+  # metadata：三欄（原路徑, 刪除時間ISO8601, 大小bytes）
+  local meta="${TRASH_META}/${key}_meta.csv"
+  printf '%s,%s,%s\n' "$abs" "$iso" "$size" > "$meta"
+
+  # 真正刪除原檔/資料夾
+  if [ -d "$abs" ]; then
+    rm -rf -- "$abs"
+  else
+    rm -f -- "$abs"
+  fi
+
+  echo "Trashed: $abs"
+}
+
+for p in "$@"; do
+  trash_one "$p"
+done

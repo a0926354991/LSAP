@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+TRASH_ROOT="$HOME/.trash"
+TRASH_FILES="$TRASH_ROOT/files"
+TRASH_META="$TRASH_ROOT/meta"
+
+shopt -s nullglob
+metas=( "$TRASH_META"/*_meta.csv )
+
+if (( ${#metas[@]} == 0 )); then
+  echo "Trash is empty."
+  exit 0
+fi
+
+# 解析一筆 metadata
+# 回傳：orig, iso, size, key, type
+get_info() {
+  local meta="$1"
+  local line
+  IFS= read -r line < "$meta"
+  local orig iso size
+  orig="${line%%,*}"; line="${line#*,}"
+  iso="${line%%,*}";  line="${line#*,}"
+  size="$line"
+
+  local file="${meta##*/}"              # <key>_meta.csv
+  local key="${file%_meta.csv}"
+  local payload="${TRASH_FILES}/${key}.tar.gz"
+
+  local top
+  top="$(tar -tzf "$payload" | head -n1)"
+  local type="FILE"
+  [[ "$top" == */ ]] && type="DIR"
+
+  printf '%s|%s|%s|%s|%s\n' "$orig" "$iso" "$size" "$key" "$type"
+}
+
+printf "Index | Deleted ISO8601         | Size    | Type | Key                      | Original Path\n"
+printf "------+--------------------------+---------+------+--------------------------+------------------------------\n"
+
+declare -a row_orig row_iso row_size row_key row_type
+for i in "${!metas[@]}"; do
+  IFS='|' read -r o is sz k t < <(get_info "${metas[$i]}")
+  row_orig[$i]="$o"; row_iso[$i]="$is"; row_size[$i]="$sz"; row_key[$i]="$k"; row_type[$i]="$t"
+  printf "%5d | %-24s | %7s | %-4s | %-24s | %s\n" \
+    "$i" "${row_iso[$i]}" "${row_size[$i]}" "${row_type[$i]}" "${row_key[$i]:0:24}" "${row_orig[$i]}"
+done
+
+read -rp "Enter Index to restore: " idx
+[[ "$idx" =~ ^[0-9]+$ ]] || { echo "Invalid index"; exit 1; }
+(( idx < ${#metas[@]} )) || { echo "Out of range"; exit 1; }
+
+orig="${row_orig[$idx]}"
+key="${row_key[$idx]}"
+payload="${TRASH_FILES}/${key}.tar.gz"
+meta="${TRASH_META}/${key}_meta.csv"
+
+parent="$(dirname "$orig")"
+name="$(basename "$orig")"
+
+# 目的地名稱（避免覆寫）
+dst="$orig"
+if [ -e "$orig" ]; then
+  suffix="$(date +%Y%m%d-%H:%M)"
+  dst="${parent}/${name}.restored.${suffix}"
+  echo "Original exists; restoring to: $dst"
+fi
+
+mkdir -p -- "$parent"
+# 先解到 parent，tar 會還原為原名稱
+tar -xzf "$payload" -C "$parent"
+
+if [ "$dst" != "$orig" ]; then
+  # 把還原的原名改成 dst
+  if [ -e "${parent}/${name}" ]; then
+    mv -n -- "${parent}/${name}" "$dst"
+  fi
+fi
+
+echo "Restored to: ${dst}"
+
+#（依需求可選擇：還原後是否自動從垃圾桶移除？這裡選擇保留。）

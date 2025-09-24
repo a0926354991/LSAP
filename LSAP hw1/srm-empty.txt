@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+TRASH_ROOT="$HOME/.trash"
+TRASH_FILES="$TRASH_ROOT/files"
+TRASH_META="$TRASH_ROOT/meta"
+
+MAX_DAYS="${TRASH_MAX_AGE_DAYS:-7}"   # 預設 7 天
+now_epoch="$(date +%s)"
+purged=0
+
+shopt -s nullglob
+for meta in "$TRASH_META"/*_meta.csv; do
+  # 讀 ISO8601
+  line=$(head -n1 "$meta")
+  iso="${line#*,}"; iso="${iso%%,*}"
+
+  # 解析時間；無法解析就跳過並警告
+  if ! ts=$(date -d "$iso" +%s 2>/dev/null); then
+    echo "WARN: skip unparsable timestamp in $(basename "$meta")" >&2
+    continue
+  fi
+
+  age_days=$(( (now_epoch - ts) / 86400 ))
+  if (( age_days > MAX_DAYS )); then
+    key="${meta##*/}"; key="${key%_meta.csv}"
+    payload="${TRASH_FILES}/${key}.tar.gz"
+    rm -f -- "$payload"
+    rm -f -- "$meta"
+    purged=$((purged+1))
+  fi
+done
+
+echo "Purged ${purged} item(s) older than ${MAX_DAYS} day(s)."
