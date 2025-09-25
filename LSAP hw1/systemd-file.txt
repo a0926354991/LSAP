@@ -1,0 +1,45 @@
+cat > ~/bin/install-srm-timer.sh <<'SH'
+#!/usr/bin/env bash
+set -euo pipefail
+
+UNIT_DIR="$HOME/.config/systemd/user"
+mkdir -p "$UNIT_DIR"
+
+# 1) service：實際執行 srm-empty（可在這裡固定預設保留天數）
+cat > "$UNIT_DIR/srm-empty.service" <<'INI'
+[Unit]
+Description=Smart Trash Can - purge old items
+
+[Service]
+Type=oneshot
+# 預設保留 7 天；想改就改這一行（或執行時用環境變數覆蓋）
+Environment=TRASH_MAX_AGE_DAYS=7
+ExecStart=%h/bin/srm-empty
+INI
+
+# 2) timer：每天觸發一次上面的 service
+cat > "$UNIT_DIR/srm-empty.timer" <<'INI'
+[Unit]
+Description=Daily run of srm-empty
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+Unit=srm-empty.service
+
+[Install]
+WantedBy=timers.target
+INI
+
+# 3) 重新載入、啟用、顯示狀態
+systemctl --user daemon-reload
+systemctl --user enable --now srm-empty.timer
+echo "== Loaded units =="
+systemctl --user cat srm-empty.service | sed -n '1,80p'
+systemctl --user cat srm-empty.timer   | sed -n '1,80p'
+echo
+echo "== Timer status =="
+systemctl --user list-timers srm-empty.timer
+SH
+
+chmod +x ~/bin/install-srm-timer.sh
