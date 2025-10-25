@@ -1,0 +1,13 @@
+Source: b11705053-statistics
+Section: utils
+Priority: optional
+Maintainer: Timmy Chen <timmy@example.com>
+Build-Depends: debhelper-compat (= 13), cmake, g++
+Standards-Version: 4.7.0
+Homepage: https://example.com
+
+Package: b11705053-statistics
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Linear regression CLI (student: b11705053)
+ A CLI tool to fit/apply multiple linear regression without third-party libs.
