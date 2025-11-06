@@ -1,0 +1,56 @@
+
+; <<>> DiG 9.10.6 <<>> +trace cool.ntu.edu.tw
+;; global options: +cmd
+.			157961	IN	NS	g.root-servers.net.
+.			157961	IN	NS	i.root-servers.net.
+.			157961	IN	NS	m.root-servers.net.
+.			157961	IN	NS	c.root-servers.net.
+.			157961	IN	NS	b.root-servers.net.
+.			157961	IN	NS	e.root-servers.net.
+.			157961	IN	NS	h.root-servers.net.
+.			157961	IN	NS	f.root-servers.net.
+.			157961	IN	NS	d.root-servers.net.
+.			157961	IN	NS	a.root-servers.net.
+.			157961	IN	NS	l.root-servers.net.
+.			157961	IN	NS	j.root-servers.net.
+.			157961	IN	NS	k.root-servers.net.
+.			503919	IN	RRSIG	NS 8 0 518400 20251118210000 20251105200000 61809 . wCwtWleyDGIyr6vXnBEqBdB2aDoWnNdyCQmJo/lrmvVI4FT4yG/w3be2 hbFMu8KkbgaGUcTI2ub6jCu9hcjHtzliDzCCn5AAfdTiHpmOqtjwboNg /4HrMG069fTyh83On+d90tWFGCDXdqGXvA1XnQC/5dWnw77xnyf1GM5j AKKajIK+HfCoQoD4GDtJiFRvB3k0EtJAqG6p3EuGRrQDsIXzP+PTConW +VHobVbqadSKU/JnyxG0nepNCjd+EwujO3lH/Ev2+tCjSkxQIoLKn4Kk XCQW141YuhnRGxzwV9lEZCAtLLcWrjKfSWThhlkOhi7T7/7Gj7Whg6fN T0ZcbQ==
+;; Received 1109 bytes from 140.112.254.4#53(140.112.254.4) in 4 ms
+
+tw.			172800	IN	NS	a.dns.tw.
+tw.			172800	IN	NS	b.dns.tw.
+tw.			172800	IN	NS	c.dns.tw.
+tw.			172800	IN	NS	d.dns.tw.
+tw.			172800	IN	NS	e.dns.tw.
+tw.			172800	IN	NS	f.dns.tw.
+tw.			172800	IN	NS	g.dns.tw.
+tw.			172800	IN	NS	h.dns.tw.
+tw.			172800	IN	NS	anytld.apnic.net.
+tw.			86400	IN	DS	51277 8 2 462DA9AF501D2B1EEF6725522DB5972F8CD2490B51D92088FF1E3D2D E0EC7BCD
+tw.			86400	IN	RRSIG	DS 8 1 86400 20251119050000 20251106040000 61809 . 6fYEMXQuttlBU299341RQ03i4EhUH9x7aVyGDQBLL3L7u0m0hfVkvERP L1SfBl37jyb8RCPsl8zwd5xF8P+q9x2ypwa83MKHm1MQnSylvC+aQU35 uBtOs3m9QioFk/ZGwALoKgFMF+f8lDD4A4hlHyPAbH7GEzHlKbwT5GAm j07+0ySaIRrGHuet/FQfjaosBOgDfLxzmHB/AC5dRjjxbfTzZKi62ggu lPbjSqtF7nYs3Z/WSc8W+lX2k0MAWodjL/DhrKpjEqI9yMBPwHbgciE8 IjYEuDmFgE1nb7mEjakVO7x9bgt4LZRgDBavA0ahON9mlQ93lOpU0jCx JXNr0Q==
+;; Received 881 bytes from 192.203.230.10#53(e.root-servers.net) in 136 ms
+
+edu.tw.			3600	IN	NS	edudns-c1.edu.tw.
+edu.tw.			3600	IN	NS	c.twnic.net.tw.
+edu.tw.			3600	IN	NS	a.twnic.net.tw.
+edu.tw.			3600	IN	NS	edudns-a2.edu.tw.
+edu.tw.			3600	IN	NS	edudns-c2.edu.tw.
+edu.tw.			3600	IN	NS	edudns-a4.edu.tw.
+edu.tw.			3600	IN	NS	b.twnic.net.tw.
+edu.tw.			3600	IN	NS	d.twnic.net.tw.
+edu.tw.			3600	IN	NS	edudns-a3.edu.tw.
+edu.tw.			300	IN	DS	41570 8 2 DC750DA0EADFCBD6299A018A7FE8AB799F37090FE1AA97CF64F9C97F B65CA3FF
+edu.tw.			300	IN	RRSIG	DS 8 2 300 20251206050018 20251106050018 41346 tw. BPXGb6dEM2TRo1lCZJOTqZIptecShUBXdW1LnJTf1fxh86S4RAuSAp1m VQH8K+kGQuUh8HcR+26cZ1iHFHqe2tDV3WW9gDAbU9bvSWaSJjGNCWih +tQ8zZ8KNl9BnbyTR5I5Pmjdv2PCDBjosq5fNqcVRDQuyaoUUImkjByy nYM=
+;; Received 872 bytes from 202.12.31.53#53(anytld.apnic.net) in 236 ms
+
+ntu.edu.tw.		300	IN	NS	ntu3.ntu.edu.tw.
+ntu.edu.tw.		300	IN	NS	dns.ntu.edu.tw.
+KCG56EAR10DAM8BO79HSLC9VKJVB1QPH.edu.tw. 300 IN	NSEC3 1 0 10 47B5 KEOEJMR43F115HDA55H3QF1BQNAV3CUS  NS
+KCG56EAR10DAM8BO79HSLC9VKJVB1QPH.edu.tw. 300 IN	RRSIG NSEC3 8 3 300 20251110023914 20251106021558 32068 edu.tw. WIwWdJzdB3bk7UgmOXzGSFM1ytdjDK0fGeLIu7+HQpN4TOvaf50/JTOZ TjquJPdyHK72LKfrQ189iRzRQw2MGYVO0eSyJ0lSyjtM3NJOItTpShd/ RumeIE6FCQpwFevhvLdTL3JEjRWi4Mc8aRE77t0+9BK96iO3kjAohFCH 1GM=
+;; Received 361 bytes from 203.73.24.24#53(b.twnic.net.tw) in 6 ms
+
+cool.ntu.edu.tw.	300	IN	A	140.112.145.153
+ntu.edu.tw.		14400	IN	NS	ntu3.ntu.edu.tw.
+ntu.edu.tw.		14400	IN	NS	dns.ntu.edu.tw.
+;; Received 157 bytes from 140.112.2.2#53(ntu3.ntu.edu.tw) in 4 ms
+

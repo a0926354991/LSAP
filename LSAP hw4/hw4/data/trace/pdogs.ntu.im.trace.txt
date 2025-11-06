@@ -1,0 +1,35 @@
+
+; <<>> DiG 9.10.6 <<>> +trace pdogs.ntu.im
+;; global options: +cmd
+.			332234	IN	NS	e.root-servers.net.
+.			332234	IN	NS	k.root-servers.net.
+.			332234	IN	NS	h.root-servers.net.
+.			332234	IN	NS	l.root-servers.net.
+.			332234	IN	NS	a.root-servers.net.
+.			332234	IN	NS	j.root-servers.net.
+.			332234	IN	NS	m.root-servers.net.
+.			332234	IN	NS	c.root-servers.net.
+.			332234	IN	NS	i.root-servers.net.
+.			332234	IN	NS	d.root-servers.net.
+.			332234	IN	NS	f.root-servers.net.
+.			332234	IN	NS	g.root-servers.net.
+.			332234	IN	NS	b.root-servers.net.
+.			518399	IN	RRSIG	NS 8 0 518400 20251119050000 20251106040000 61809 . SQ2iGX3JqgoyNCAXQseKmzv2VOxXMcvtN5sfjFFkBo4DnnFzLoPJq3JT ZRjheWS566Oebm+45Q9XXCBJ9JpD8kLQ+CfAR3fDSYI39Q+tkaMb0dHc lj7ieEiM5NgXrAR8R+cfknFo+SlNHbX9vo4icYaokiZHcCuA19mbStyB wuSUybmEKNBTzKaSMmxtXmAz9IEW4XXxznkZOBstxkEXIvFJ8o0lHmGl 3Xec1HHcS8pU0f3/11mikwEvX3NGHKpyU2QB/IcG7GmF30evncgsDtI1 Dj9jS9rOa3zFA08pr8zL5E81tb7oBJthosGShY+kVDzJJ6wVVw86oDwN nGg4+w==
+;; Received 1097 bytes from 140.112.254.4#53(140.112.254.4) in 4 ms
+
+im.			172800	IN	NS	ns4.ja.net.
+im.			172800	IN	NS	hoppy.iom.com.
+im.			172800	IN	NS	barney.advsys.co.uk.
+im.			172800	IN	NS	pebbles.iom.com.
+im.			86400	IN	NSEC	imamat. NS RRSIG NSEC
+im.			86400	IN	RRSIG	NSEC 8 1 86400 20251119050000 20251106040000 61809 . ainX86mdGoM4P03EDnsVLYH9uyJAkPnPLXnIixyTq3aiqntVMBEnVcRH xbYrzfTvfvSsmDxSF22zvw+VRtgC2XbttXJK64aFK/2II2RApcYhnBIs XKwMwURK1XtJKGn+ztDfa7u7kC+grikJkjGW9Ca1tn5zmcu/ZfDuo5Yr HeRmlLMWV8R9A8QoUIDnW+G1IsRgq24m+B79iexjysD9Z0J86b7sMlWw 9Mz+m2rkbALG3722gMyzkBr67aFP83TNlKwMcg3SaAti7ekxBLgZW5Tc 6KekvWW2yZwheX4uVD0bGGXwxdqVbeqDnMhuGimM4xgElQi8CWOfnSCs VayTrA==
+;; Received 561 bytes from 170.247.170.2#53(b.root-servers.net) in 134 ms
+
+ntu.im.			259200	IN	NS	max.ns.cloudflare.com.
+ntu.im.			259200	IN	NS	emma.ns.cloudflare.com.
+;; Received 95 bytes from 217.23.163.140#53(hoppy.iom.com) in 294 ms
+
+pdogs.ntu.im.		3600	IN	A	140.112.106.43
+pdogs.ntu.im.		3600	IN	RRSIG	A 13 3 3600 20251107080549 20251105060549 34505 ntu.im. u3/CBfYktcK23fIL+IR4XFoBOSOkLBtzjy/qbnHq8Im9W0pGzF8WaiMZ 082PCTc7zNEdvBF6OR+8eBdXFpeGBw==
+;; Received 159 bytes from 173.245.58.112#53(emma.ns.cloudflare.com) in 135 ms
+

@@ -1,0 +1,35 @@
+
+; <<>> DiG 9.10.6 <<>> +trace notion.so
+;; global options: +cmd
+.			332238	IN	NS	c.root-servers.net.
+.			332238	IN	NS	e.root-servers.net.
+.			332238	IN	NS	f.root-servers.net.
+.			332238	IN	NS	j.root-servers.net.
+.			332238	IN	NS	g.root-servers.net.
+.			332238	IN	NS	k.root-servers.net.
+.			332238	IN	NS	i.root-servers.net.
+.			332238	IN	NS	a.root-servers.net.
+.			332238	IN	NS	d.root-servers.net.
+.			332238	IN	NS	h.root-servers.net.
+.			332238	IN	NS	b.root-servers.net.
+.			332238	IN	NS	l.root-servers.net.
+.			332238	IN	NS	m.root-servers.net.
+.			518399	IN	RRSIG	NS 8 0 518400 20251119050000 20251106040000 61809 . SQ2iGX3JqgoyNCAXQseKmzv2VOxXMcvtN5sfjFFkBo4DnnFzLoPJq3JT ZRjheWS566Oebm+45Q9XXCBJ9JpD8kLQ+CfAR3fDSYI39Q+tkaMb0dHc lj7ieEiM5NgXrAR8R+cfknFo+SlNHbX9vo4icYaokiZHcCuA19mbStyB wuSUybmEKNBTzKaSMmxtXmAz9IEW4XXxznkZOBstxkEXIvFJ8o0lHmGl 3Xec1HHcS8pU0f3/11mikwEvX3NGHKpyU2QB/IcG7GmF30evncgsDtI1 Dj9jS9rOa3zFA08pr8zL5E81tb7oBJthosGShY+kVDzJJ6wVVw86oDwN nGg4+w==
+;; Received 1097 bytes from 140.112.254.4#53(140.112.254.4) in 4 ms
+
+so.			172800	IN	NS	e.nic.so.
+so.			172800	IN	NS	d.nic.so.
+so.			86400	IN	NSEC	soccer. NS RRSIG NSEC
+so.			86400	IN	RRSIG	NSEC 8 1 86400 20251119050000 20251106040000 61809 . 4iL0dU/Tl7C18J1fQoqcengrABWcFgzcY7+njhprdgWlZNHgtYPNTfKr wt09N0wH2TGDX3jMuTPIJkx8qDklVEVUVQq4PGCsck2WHQ4QTXUIdDP1 +0RQxqce7keqX9KnXwe+dFzEAy0O/4HINIZcWCwyRBYlMHi+pV+ypD3Y 0p9dRL5TNf5keN66UIzUHv7m1mjYG9UIabiTHR8gzVw7Wp70W6o0+tjd tvhADNUtXPlGDCevNuNl4/IEUU+a/q6S5+BUartAT2iF+5m4ZYu7IEkM dqfOBpliUdzPOxPruvxRb8v3vamf/6qIgR0BbYKRXPFtls0mS5IIBb6t fu5qKw==
+;; Received 479 bytes from 202.12.27.33#53(m.root-servers.net) in 306 ms
+
+notion.so.		86400	IN	NS	dana.ns.cloudflare.com.
+notion.so.		86400	IN	NS	woz.ns.cloudflare.com.
+K0K9SVK9FH5O78CTSH9A0OTVEMTF7T55.so. 86400 IN NSEC3 1 1 0 65ED5F49 NU5E5KNNJ09MO7RHV51KNP7SGVV45042  NS SOA TXT RRSIG DNSKEY NSEC3PARAM
+K0K9SVK9FH5O78CTSH9A0OTVEMTF7T55.so. 86400 IN RRSIG NSEC3 8 2 86400 20251114190000 20251028190000 31626 so. S7HfBsDtNTubmZRUhplxig/OS9n2gtuP99af25GkW4x3PjgXokQnb4pp pF5UdyovHQmHvSTGKYIeeF4kPg3fZOBEj9OxZGgmaxEHKG0bqhraGDmo 4uZo5CLZKaSqhYw0rAEaVGmYn2QXVdlI0M3Bu1OzCD/gKDBIqCcOd+Q+ XpCC4AzsOLue+ezg2q+RPBUoikkQ4KHzVp3hCV438DhezJH5DaGMrC/M vxHW1Maika0GrfZRjpHXi/sadojUsq9B93gNcB/rmdwth15dizEQ3Pxs apEDJRYISWBJCDbJ4J5tLzVu7LB5uBY2Pj48AKCfUjZycssBMYFoRMQk RJMRoA==
+;; Received 466 bytes from 204.61.216.101#53(e.nic.so) in 36 ms
+
+notion.so.		300	IN	A	208.103.161.2
+notion.so.		300	IN	A	208.103.161.1
+;; Received 70 bytes from 172.64.33.150#53(woz.ns.cloudflare.com) in 146 ms
+

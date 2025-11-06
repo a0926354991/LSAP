@@ -1,0 +1,49 @@
+
+; <<>> DiG 9.10.6 <<>> +trace chatgpt.com
+;; global options: +cmd
+.			157962	IN	NS	k.root-servers.net.
+.			157962	IN	NS	d.root-servers.net.
+.			157962	IN	NS	j.root-servers.net.
+.			157962	IN	NS	b.root-servers.net.
+.			157962	IN	NS	g.root-servers.net.
+.			157962	IN	NS	l.root-servers.net.
+.			157962	IN	NS	f.root-servers.net.
+.			157962	IN	NS	c.root-servers.net.
+.			157962	IN	NS	i.root-servers.net.
+.			157962	IN	NS	e.root-servers.net.
+.			157962	IN	NS	m.root-servers.net.
+.			157962	IN	NS	h.root-servers.net.
+.			157962	IN	NS	a.root-servers.net.
+.			503920	IN	RRSIG	NS 8 0 518400 20251118210000 20251105200000 61809 . wCwtWleyDGIyr6vXnBEqBdB2aDoWnNdyCQmJo/lrmvVI4FT4yG/w3be2 hbFMu8KkbgaGUcTI2ub6jCu9hcjHtzliDzCCn5AAfdTiHpmOqtjwboNg /4HrMG069fTyh83On+d90tWFGCDXdqGXvA1XnQC/5dWnw77xnyf1GM5j AKKajIK+HfCoQoD4GDtJiFRvB3k0EtJAqG6p3EuGRrQDsIXzP+PTConW +VHobVbqadSKU/JnyxG0nepNCjd+EwujO3lH/Ev2+tCjSkxQIoLKn4Kk XCQW141YuhnRGxzwV9lEZCAtLLcWrjKfSWThhlkOhi7T7/7Gj7Whg6fN T0ZcbQ==
+;; Received 1109 bytes from 140.112.254.4#53(140.112.254.4) in 5 ms
+
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20251119050000 20251106040000 61809 . tncdUkjC/m4gwK8aqbdYHV1ZD+WR3n5FJgvwM+xHj4kJMG6D5XuASX4x 2D0YrJG547HWwb1jAjDcHaRyBcJqeoHti/mcLrungu4mGMHzYeVPx/Td YrC7yk91EA8UDacZA2y1qK0pzziw+GPEUs5ny5wOIvgRrXKOZPZYif60 UPk2df0O2lqe4q8vrx8Ff4zKDs275tC2Er+hrJ6YrQ8hKdwpDgkOdrjO 2e62PctJlRFYVj6MWBmQZS85ZSXCxMgP4bCUo5no6S3at4z2bKFfWjpF GcB7MF0kGwArH/hPfudiEV3cpoGPEOmr3o53vfIv22fxBfcOSmPjHq1y BuDwqg==
+;; Received 1171 bytes from 193.0.14.129#53(k.root-servers.net) in 24 ms
+
+chatgpt.com.		172800	IN	NS	savanna.ns.cloudflare.com.
+chatgpt.com.		172800	IN	NS	hassan.ns.cloudflare.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL  NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN RRSIG NSEC3 13 2 900 20251111002637 20251103231637 46539 com. qil9G2NSHYVtUASYp5W8XlMim+ieLFJ/aWJROvBKJfsjLso2rCp+GY5N vzw13ee/+aYXc2ZmkHSCrjrqPWjmAQ==
+08NDLA4Q3O0UPKEOOLJNKUBN5BUN9T9F.com. 900 IN NSEC3 1 1 0 - 08NDT0OTA1U0GT8J9PQA64VEG9K5C88F  NS DS RRSIG
+08NDLA4Q3O0UPKEOOLJNKUBN5BUN9T9F.com. 900 IN RRSIG NSEC3 13 2 900 20251111023426 20251104012426 46539 com. wnGciLGMzCL43GO3uTtH1TkpB33FSPDDK9dlb5cHnNe5ii7cYRr6bUFs xyCVKOlFowUgbMMkV5HyXT/3BOXnbA==
+;; Received 718 bytes from 192.55.83.30#53(m.gtld-servers.net) in 137 ms
+
+chatgpt.com.		300	IN	A	172.64.155.209
+chatgpt.com.		300	IN	A	104.18.32.47
+chatgpt.com.		300	IN	RRSIG	A 13 2 300 20251107080541 20251105060541 34505 chatgpt.com. VU8RhVXAOwOIWpuundJGpkt79FDv7iArovFcuHK2VY+bf63NR+/3uIPd UxMZerkPWLHHS8gVZvNUuAThQpY1Iw==
+;; Received 179 bytes from 162.159.44.149#53(hassan.ns.cloudflare.com) in 55 ms
+

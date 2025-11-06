@@ -1,0 +1,40 @@
+
+; <<>> DiG 9.10.6 <<>> +trace hackmd.io
+;; global options: +cmd
+.			174249	IN	NS	e.root-servers.net.
+.			174249	IN	NS	c.root-servers.net.
+.			174249	IN	NS	m.root-servers.net.
+.			174249	IN	NS	j.root-servers.net.
+.			174249	IN	NS	i.root-servers.net.
+.			174249	IN	NS	f.root-servers.net.
+.			174249	IN	NS	h.root-servers.net.
+.			174249	IN	NS	g.root-servers.net.
+.			174249	IN	NS	l.root-servers.net.
+.			174249	IN	NS	d.root-servers.net.
+.			174249	IN	NS	b.root-servers.net.
+.			174249	IN	NS	a.root-servers.net.
+.			174249	IN	NS	k.root-servers.net.
+.			515553	IN	RRSIG	NS 8 0 518400 20251119050000 20251106040000 61809 . SQ2iGX3JqgoyNCAXQseKmzv2VOxXMcvtN5sfjFFkBo4DnnFzLoPJq3JT ZRjheWS566Oebm+45Q9XXCBJ9JpD8kLQ+CfAR3fDSYI39Q+tkaMb0dHc lj7ieEiM5NgXrAR8R+cfknFo+SlNHbX9vo4icYaokiZHcCuA19mbStyB wuSUybmEKNBTzKaSMmxtXmAz9IEW4XXxznkZOBstxkEXIvFJ8o0lHmGl 3Xec1HHcS8pU0f3/11mikwEvX3NGHKpyU2QB/IcG7GmF30evncgsDtI1 Dj9jS9rOa3zFA08pr8zL5E81tb7oBJthosGShY+kVDzJJ6wVVw86oDwN nGg4+w==
+;; Received 1097 bytes from 140.112.254.4#53(140.112.254.4) in 6 ms
+
+io.			172800	IN	NS	a0.nic.io.
+io.			172800	IN	NS	a2.nic.io.
+io.			172800	IN	NS	b0.nic.io.
+io.			172800	IN	NS	c0.nic.io.
+io.			86400	IN	DS	57355 8 2 95A57C3BAB7849DBCDDF7C72ADA71A88146B141110318CA5BE672057 E865C3E2
+io.			86400	IN	RRSIG	DS 8 1 86400 20251119050000 20251106040000 61809 . q6T9pZGU7k4vG5ocjldsQxQAnqJ9g40Kit3bhy1nLPajPsx6EEQb7wn5 RuP5/hOjmY8vPmWPcIR4AZc0li/I02G2thZWAdIGKoMl6ZTkvwrMBk7w kx8feiLz5IY5MVGQT44h2ZH3eznDCPDI0pCgTBL2xLRvbp6a3m/e4JUI pAeTqA6Yf8NAsxTNF40QB2ZvS5LZvj5OiPVq38R64hB3NwV3VwunpDZl u6quleMN1C0KUzFnSKq5+0QoXg2YAQLo84Z+yIDkJh/24EhSVosaSy9a nBsRD2hCr+CjFIVm5WRxoVJlf7WfKUjGqVepFXVGHWwkjgyCvw7GxZqj tpcwvA==
+;; Received 621 bytes from 198.97.190.53#53(h.root-servers.net) in 212 ms
+
+hackmd.io.		3600	IN	NS	ns-221.awsdns-27.com.
+hackmd.io.		3600	IN	NS	ns-1925.awsdns-48.co.uk.
+hackmd.io.		3600	IN	NS	ns-845.awsdns-41.net.
+hackmd.io.		3600	IN	NS	ns-1444.awsdns-52.org.
+hackmd.io.		3600	IN	DS	54360 13 2 CF91241F9513C3AE8E559A21F9D4A553F5F48E4E30F5219231DEAE0C 72C76D02
+hackmd.io.		3600	IN	RRSIG	DS 8 2 3600 20251122155102 20251101145102 61905 io. HLeFDqV0jNv1X2at/s5at1RSfb5c4wUtsgFRXGsARRWPI18lZ5Ar7b3o EHBMmipqMX1QzD4VBLf8AbTRb9X+E08AHbd+a6RSDz6NGSH5gOO+4Wlk DFbh/95JZ8TR7hYIyKi9ysfJgcC3CRnszf6rMLLN84Rewz9avjmjcxOy N+g=
+;; Received 388 bytes from 65.22.161.17#53(b0.nic.io) in 140 ms
+
+hackmd.io.		300	IN	A	99.83.179.177
+hackmd.io.		300	IN	A	75.2.77.152
+hackmd.io.		300	IN	RRSIG	A 13 2 300 20251106081053 20251106060553 54654 hackmd.io. +gT72Xl/frKKLNB9SNGDSNOYpSLUGjMAmbq9xJNrpcjBts4eCqSlJi23 C3gUa27tlYVUz+N8xXNxpLJEJwFbyQ==
+;; Received 175 bytes from 205.251.195.77#53(ns-845.awsdns-41.net) in 55 ms
+

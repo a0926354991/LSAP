@@ -1,0 +1,49 @@
+
+; <<>> DiG 9.10.6 <<>> +trace google.com
+;; global options: +cmd
+.			332243	IN	NS	k.root-servers.net.
+.			332243	IN	NS	m.root-servers.net.
+.			332243	IN	NS	g.root-servers.net.
+.			332243	IN	NS	l.root-servers.net.
+.			332243	IN	NS	d.root-servers.net.
+.			332243	IN	NS	a.root-servers.net.
+.			332243	IN	NS	e.root-servers.net.
+.			332243	IN	NS	i.root-servers.net.
+.			332243	IN	NS	j.root-servers.net.
+.			332243	IN	NS	f.root-servers.net.
+.			332243	IN	NS	c.root-servers.net.
+.			332243	IN	NS	b.root-servers.net.
+.			332243	IN	NS	h.root-servers.net.
+.			518399	IN	RRSIG	NS 8 0 518400 20251119050000 20251106040000 61809 . SQ2iGX3JqgoyNCAXQseKmzv2VOxXMcvtN5sfjFFkBo4DnnFzLoPJq3JT ZRjheWS566Oebm+45Q9XXCBJ9JpD8kLQ+CfAR3fDSYI39Q+tkaMb0dHc lj7ieEiM5NgXrAR8R+cfknFo+SlNHbX9vo4icYaokiZHcCuA19mbStyB wuSUybmEKNBTzKaSMmxtXmAz9IEW4XXxznkZOBstxkEXIvFJ8o0lHmGl 3Xec1HHcS8pU0f3/11mikwEvX3NGHKpyU2QB/IcG7GmF30evncgsDtI1 Dj9jS9rOa3zFA08pr8zL5E81tb7oBJthosGShY+kVDzJJ6wVVw86oDwN nGg4+w==
+;; Received 1097 bytes from 140.112.254.4#53(140.112.254.4) in 5 ms
+
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20251119050000 20251106040000 61809 . tncdUkjC/m4gwK8aqbdYHV1ZD+WR3n5FJgvwM+xHj4kJMG6D5XuASX4x 2D0YrJG547HWwb1jAjDcHaRyBcJqeoHti/mcLrungu4mGMHzYeVPx/Td YrC7yk91EA8UDacZA2y1qK0pzziw+GPEUs5ny5wOIvgRrXKOZPZYif60 UPk2df0O2lqe4q8vrx8Ff4zKDs275tC2Er+hrJ6YrQ8hKdwpDgkOdrjO 2e62PctJlRFYVj6MWBmQZS85ZSXCxMgP4bCUo5no6S3at4z2bKFfWjpF GcB7MF0kGwArH/hPfudiEV3cpoGPEOmr3o53vfIv22fxBfcOSmPjHq1y BuDwqg==
+;; Received 1170 bytes from 192.112.36.4#53(g.root-servers.net) in 190 ms
+
+google.com.		172800	IN	NS	ns2.google.com.
+google.com.		172800	IN	NS	ns1.google.com.
+google.com.		172800	IN	NS	ns3.google.com.
+google.com.		172800	IN	NS	ns4.google.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL  NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN RRSIG NSEC3 13 2 900 20251111002637 20251103231637 46539 com. qil9G2NSHYVtUASYp5W8XlMim+ieLFJ/aWJROvBKJfsjLso2rCp+GY5N vzw13ee/+aYXc2ZmkHSCrjrqPWjmAQ==
+S84BOR4DK28HNHPLC218O483VOOOD5D8.com. 900 IN NSEC3 1 1 0 - S84BR9CIB2A20L3ETR1M2415ENPP99L8  NS DS RRSIG
+S84BOR4DK28HNHPLC218O483VOOOD5D8.com. 900 IN RRSIG NSEC3 13 2 900 20251112012649 20251105001649 46539 com. INA7dumtt5t6xRzARf51IF65FDBCAwp/0wt3q/rf77sAxwaaFqSLoIXL lzvlwqlSX8kgisqNdt7eVkgPUMT0vw==
+;; Received 644 bytes from 192.54.112.30#53(h.gtld-servers.net) in 150 ms
+
+google.com.		300	IN	A	142.250.198.78
+;; Received 55 bytes from 216.239.32.10#53(ns1.google.com) in 48 ms
+

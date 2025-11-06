@@ -1,0 +1,47 @@
+
+; <<>> DiG 9.10.6 <<>> +trace canva.com
+;; global options: +cmd
+.			256656	IN	NS	d.root-servers.net.
+.			256656	IN	NS	m.root-servers.net.
+.			256656	IN	NS	c.root-servers.net.
+.			256656	IN	NS	k.root-servers.net.
+.			256656	IN	NS	b.root-servers.net.
+.			256656	IN	NS	e.root-servers.net.
+.			256656	IN	NS	j.root-servers.net.
+.			256656	IN	NS	f.root-servers.net.
+.			256656	IN	NS	a.root-servers.net.
+.			256656	IN	NS	h.root-servers.net.
+.			256656	IN	NS	g.root-servers.net.
+.			256656	IN	NS	i.root-servers.net.
+.			256656	IN	NS	l.root-servers.net.
+.			508792	IN	RRSIG	NS 8 0 518400 20251118210000 20251105200000 61809 . wCwtWleyDGIyr6vXnBEqBdB2aDoWnNdyCQmJo/lrmvVI4FT4yG/w3be2 hbFMu8KkbgaGUcTI2ub6jCu9hcjHtzliDzCCn5AAfdTiHpmOqtjwboNg /4HrMG069fTyh83On+d90tWFGCDXdqGXvA1XnQC/5dWnw77xnyf1GM5j AKKajIK+HfCoQoD4GDtJiFRvB3k0EtJAqG6p3EuGRrQDsIXzP+PTConW +VHobVbqadSKU/JnyxG0nepNCjd+EwujO3lH/Ev2+tCjSkxQIoLKn4Kk XCQW141YuhnRGxzwV9lEZCAtLLcWrjKfSWThhlkOhi7T7/7Gj7Whg6fN T0ZcbQ==
+;; Received 1109 bytes from 140.112.254.4#53(140.112.254.4) in 4 ms
+
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20251119050000 20251106040000 61809 . tncdUkjC/m4gwK8aqbdYHV1ZD+WR3n5FJgvwM+xHj4kJMG6D5XuASX4x 2D0YrJG547HWwb1jAjDcHaRyBcJqeoHti/mcLrungu4mGMHzYeVPx/Td YrC7yk91EA8UDacZA2y1qK0pzziw+GPEUs5ny5wOIvgRrXKOZPZYif60 UPk2df0O2lqe4q8vrx8Ff4zKDs275tC2Er+hrJ6YrQ8hKdwpDgkOdrjO 2e62PctJlRFYVj6MWBmQZS85ZSXCxMgP4bCUo5no6S3at4z2bKFfWjpF GcB7MF0kGwArH/hPfudiEV3cpoGPEOmr3o53vfIv22fxBfcOSmPjHq1y BuDwqg==
+;; Received 1169 bytes from 192.112.36.4#53(g.root-servers.net) in 184 ms
+
+canva.com.		172800	IN	NS	ns1.canva.com.
+canva.com.		172800	IN	NS	ns2.canva.com.
+canva.com.		86400	IN	DS	2371 13 2 848A4B1E3431CD140EE693CA5C2C259CDACDAEAADCA97C9EB6BB13C8 B25C5A42
+canva.com.		86400	IN	RRSIG	DS 13 2 86400 20251112001930 20251104230930 46539 com. Vss/EWEmm8JiLaPHq+069zdMDBnVltohQbfc0bvharhUyg41+1Ssph7W 6/ok8yqp8WId0Sihzf4+Ls2voAr5pA==
+;; Received 309 bytes from 192.33.14.30#53(b.gtld-servers.net) in 203 ms
+
+canva.com.		300	IN	A	104.16.103.112
+canva.com.		300	IN	A	104.16.102.112
+canva.com.		300	IN	RRSIG	A 13 2 300 20251107080552 20251105060552 34505 canva.com. DFwgkqICy0ot4WvuPo+NGqTHn+qK7Tetf5Xvo7J6YoPUIvwPxS5LN1W0 hp9AwxSaU3/fVdksrFU3gtpwzxpWmQ==
+;; Received 175 bytes from 162.159.1.102#53(ns2.canva.com) in 153 ms
+

@@ -1,0 +1,8 @@
+flowchart LR
+  classDef hop fill:#eef,stroke:#999,rx:10,ry:10;
+  N2["Hop 2\n140.112.24.253\n-\nAPNIC-ERX-140-109-0-0\nAU Taipei/Taiwan\n-1 ms"]:::hop
+  N3["Hop 3\n140.112.4.254\nwl127.cc.ntu.edu.tw\nAPNIC-ERX-140-109-0-0\nAU Taipei/Taiwan\n-1 ms"]:::hop
+  N2 --> N3
+  N4["Hop 4\n140.112.0.210\ncore_serv_0210.cc.ntu.edu.tw\nAPNIC-ERX-140-109-0-0\nAU Taipei/Taiwan\n-1 ms"]:::hop
+  N3 --> N4
+  N140.112.0.170["Hop 140.112.0.170\n140.112.0.170\ncore_serv_0170.cc.ntu.edu.tw\nAPNIC-ERX-140-109-0-0\nAU Taipei/Taiwan\n-1 ms"]:::hop
