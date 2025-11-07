@@ -1,11 +1,10 @@
 domain,variants,record,unique_ips,orgs,whois_countries,cdn_guess
-cool.ntu.edu.tw,apex;www,A/AAAA,1 (A),,,Unknown
-notion.so,apex;www,A/AAAA,2 (A),Notion Labs, Inc. (NL-869),US
-pdogs.ntu.im,apex;www,A/AAAA,1 (A),Asia Pacific Network Information Centre (APNIC),AU,Unknown
-ilovepdf.com,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
-youtube.com,apex;www,A/AAAA,6 (A),Google LLC (GOGL),US,Google
-canva.com,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
-chatgpt.com,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
-google.com,apex;www,A/AAAA,2 (A),Google LLC (GOGL),US,Google
-hackmd.io,apex;www,A/AAAA,5 (A),Amazon Technologies Inc. (AT-88-Z),US,AWS_CloudFront_or_AWS
-onlinegdb.com,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
+colab.research.google.com,apex;www,A/AAAA,5 (A),,,Unknown
+diagrams.net,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
+kaggle.com,apex;www,A/AAAA,1 (A),Google LLC (GOOGL-2),US,Google
+github.com,apex;www,A/AAAA,2 (A),Microsoft Corporation (MSFT),US,Azure_or_Microsoft
+scholar.google.com,apex;www,A/AAAA,3 (A),Google LLC (GOGL),US,Google
+regex101.com,apex;www,A/AAAA,1 (A),CLOUD-NBG1,DE,Unknown
+stackoverflow.com,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
+codepen.io,apex;www,A/AAAA,2 (A),Cloudflare, Inc. (CLOUD14),US
+overleaf.com,apex;www,A/AAAA,2 (A),Google LLC (GOOGL-2),US,Google

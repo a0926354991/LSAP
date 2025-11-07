@@ -1,0 +1,10 @@
+hop,ip,hostname,org,country,location,avg_ms
+2,123.51.152.254,-,NCICNET-NET,TW,Taipei/Taiwan,257.515
+3,220.228.20.149,-,NCICNET-TW,TW,Taipei/Taiwan,40.417
+4,192.72.107.97,h97-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,6.908
+5,139.175.58.145,r58-145.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,7.211
+139.175.57.185,139.175.57.185,r57-185.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,6.875
+6,139.175.58.2,r58-2.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,6.354
+192.72.155.118,192.72.155.118,h118-192-72-155.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,5.788
+7,139.175.59.213,r59-213.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,7.153
+8,104.18.32.7,-,CLOUDFLARENET,US,San Francisco/California,6.517

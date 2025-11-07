@@ -1,0 +1,31 @@
+flowchart LR
+  classDef hop fill:#eef,stroke:#999,rx:10,ry:10;
+  N2["Hop 2\n123.51.152.254\n-\nNCICNET-NET\nTW Taipei/Taiwan\n8.700 ms"]:::hop
+  N3["Hop 3\n220.228.20.157\n-\nNCICNET-TW\nTW Taipei/Taiwan\n5.799 ms"]:::hop
+  N2 --> N3
+  N220.228.20.149["Hop 220.228.20.149\n220.228.20.149\n-\nNCICNET-TW\nTW Taipei/Taiwan\n9.880 ms"]:::hop
+  N3 --> N220.228.20.149
+  N4["Hop 4\n192.72.107.189\nh189-192-72-107.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n12.735 ms"]:::hop
+  N220.228.20.149 --> N4
+  N192.72.107.97["Hop 192.72.107.97\n192.72.107.97\nh97-192-72-107.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n6.585 ms"]:::hop
+  N4 --> N192.72.107.97
+  N192.72.107.189["Hop 192.72.107.189\n192.72.107.189\nh189-192-72-107.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n5.589 ms"]:::hop
+  N192.72.107.97 --> N192.72.107.189
+  N5["Hop 5\n139.175.56.141\nr56-141.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n7.672 ms"]:::hop
+  N192.72.107.189 --> N5
+  N139.175.57.185["Hop 139.175.57.185\n139.175.57.185\nr57-185.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n6.026 ms"]:::hop
+  N5 --> N139.175.57.185
+  N6["Hop 6\n139.175.58.202\nr58-202.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n8.155 ms"]:::hop
+  N139.175.57.185 --> N6
+  N139.175.59.163["Hop 139.175.59.163\n139.175.59.163\nr59-163.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n7.132 ms"]:::hop
+  N6 --> N139.175.59.163
+  N139.175.59.167["Hop 139.175.59.167\n139.175.59.167\nr59-167.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n5.625 ms"]:::hop
+  N139.175.59.163 --> N139.175.59.167
+  N7["Hop 7\n139.175.59.217\nr59-217.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n7.201 ms"]:::hop
+  N139.175.59.167 --> N7
+  N8["Hop 8\n142.250.172.86\n-\nGOOGLE\nUS Taipei/Taiwan\n5.718 ms"]:::hop
+  N7 --> N8
+  N35.244.233.98["Hop 35.244.233.98\n35.244.233.98\n98.233.244.35.bc.googleusercontent.com\nGOOGLE-CLOUD\nUS Kansas City/Missouri\n5.899 ms"]:::hop
+  N8 --> N35.244.233.98
+  N142.250.172.86["Hop 142.250.172.86\n142.250.172.86\n-\nGOOGLE\nUS Taipei/Taiwan\n5.771 ms"]:::hop
+  N35.244.233.98 --> N142.250.172.86

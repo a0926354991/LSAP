@@ -1,0 +1,5 @@
+hop,ip,hostname,org,country,location,avg_ms
+2,192.168.11.254,-,-,-,-,2.455
+3,59.120.178.254,59-120-178-254.hinet-ip.hinet.net,HINET-NET,TW,Taoyuan/Taiwan,11.446
+4,168.95.211.114,168-95-211-114.tyfo-3332.hinet.net,APNIC-ERX-168-95-0-0,AU,Taichung/Taiwan,7.258
+5,220.128.9.154,220-128-9-154.tylc-3032.hinet.net,HINET-NET,TW,Taoyuan City/Taiwan,10.492

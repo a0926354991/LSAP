@@ -1,0 +1,13 @@
+hop,ip,hostname,org,country,location,avg_ms
+2,123.51.152.254,-,NCICNET-NET,TW,Taipei/Taiwan,9.072
+3,220.228.20.157,-,NCICNET-TW,TW,Taipei/Taiwan,5.689
+220.228.20.149,220.228.20.149,-,NCICNET-TW,TW,Taipei/Taiwan,7.644
+4,192.72.107.189,h189-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,17.086
+192.72.107.97,192.72.107.97,h97-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,7.132
+5,139.175.57.185,r57-185.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,10.794
+139.175.58.145,139.175.58.145,r58-145.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,5.237
+139.175.57.217,139.175.57.217,r57-217.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,5.355
+6,192.72.155.118,h118-192-72-155.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,6.043
+139.175.58.2,139.175.58.2,r58-2.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,7.381
+7,139.175.59.213,r59-213.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,10.021
+8,104.16.147.32,-,CLOUDFLARENET,US,San Francisco/California,6.391

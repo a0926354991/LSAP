@@ -1,11 +1,10 @@
-canva.com,cloudflare,Cloudflare,www http 301 cloudflare
-chatgpt.com,cloudflare,Cloudflare,www http 301 cloudflare
-cool.ntu.edu.tw,apache,-,www http 0 
+codepen.io,cloudflare,Cloudflare,www http 301 cloudflare
+colab.research.google.com,-,-,www http 0 
+diagrams.net,cloudflare,Cloudflare,www http 301 cloudflare
 domain,server_guess,cdn_hint,examples
-google.com,google_gws,Google,www http 200 gws
-hackmd.io,-,-,www http 301 awselb/2.0
-ilovepdf.com,cloudflare,Cloudflare,www http 301 cloudflare
-notion.so,cloudflare,Cloudflare,www http 301 cloudflare
-onlinegdb.com,cloudflare,Cloudflare,www http 302 cloudflare
-pdogs.ntu.im,nginx,-,www http 404 nginx/1.24.0 (Ubuntu)
-youtube.com,-,-,www http 301 ESF
+github.com,-,-,www http 301 github.com
+kaggle.com,-,-,www http 404 
+overleaf.com,nginx,-,www http 308 nginx
+regex101.com,nginx,-,www http 301 nginx
+scholar.google.com,-,-,www http 302 scholar
+stackoverflow.com,cloudflare,Cloudflare,www http 302 cloudflare

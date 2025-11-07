@@ -1,21 +1,19 @@
 domain,variant,record,ips,cname_chain,whois_orgs,whois_countries,cdn_guess
-google.com,apex,A,142.250.198.78,-,Google LLC (GOGL),US,Google
-google.com,www,A,142.250.198.68,-,Google LLC (GOGL),US,Google
-chatgpt.com,apex,A,172.64.155.209;104.18.32.47,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-chatgpt.com,www,A,104.18.32.47;172.64.155.209,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-cool.ntu.edu.tw,apex,A,140.112.145.153,-,Asia Pacific Network Information Centre (APNIC),AU,Unknown
-cool.ntu.edu.tw,www,A,,-,,,Unknown
-notion.so,apex,A,208.103.161.2;208.103.161.1,-,Notion Labs, Inc. (NL-869),US,Unknown
-notion.so,www,A,208.103.161.2;208.103.161.1,-,Notion Labs, Inc. (NL-869),US,Unknown
-pdogs.ntu.im,apex,A,140.112.106.43,-,Asia Pacific Network Information Centre (APNIC),AU,Unknown
-pdogs.ntu.im,www,A,140.112.106.43,-,Asia Pacific Network Information Centre (APNIC),AU,Unknown
-canva.com,apex,A,104.16.102.112;104.16.103.112,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-canva.com,www,A,104.16.102.112;104.16.103.112,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-hackmd.io,apex,A,75.2.77.152;99.83.179.177,-,Amazon.com, Inc. (AMAZO-4),US,AWS_CloudFront_or_AWS
-hackmd.io,www,A,13.114.162.198;35.77.161.15;35.78.54.124,-,Amazon Technologies Inc. (AT-88-Z),US,AWS_CloudFront_or_AWS
-onlinegdb.com,apex,A,172.67.165.188;104.21.89.227,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-onlinegdb.com,www,A,172.67.165.188;104.21.89.227,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-youtube.com,apex,A,142.250.204.46,-,Google LLC (GOGL),US,Google
-youtube.com,www,A,youtube-ui.l.google.com;142.250.77.14;142.250.196.206;142.250.198.78;142.250.66.78;142.250.204.46,youtube-ui.l.google.com,Google LLC (GOGL),US,Google
-ilovepdf.com,apex,A,172.64.152.170;104.18.35.86,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
-ilovepdf.com,www,A,104.18.35.86;172.64.152.170,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
+scholar.google.com,apex,A,scholar.l.google.com;142.250.77.4,scholar.l.google.com,Google LLC (GOGL),US,Google
+scholar.google.com,www,A,scholar.google.com;scholar.l.google.com;142.250.77.4,scholar.google.com -> scholar.l.google.com,Google LLC (GOGL),US,Google
+github.com,apex,A,20.27.177.113,-,Microsoft Corporation (MSFT),US,Azure_or_Microsoft
+github.com,www,A,github.com;20.27.177.113,github.com,Microsoft Corporation (MSFT),US,Azure_or_Microsoft
+stackoverflow.com,apex,A,172.64.155.249;104.18.32.7,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
+stackoverflow.com,www,A,172.64.155.249;104.18.32.7,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
+colab.research.google.com,apex,A,colab-alv.research.google.com;216.239.38.180;216.239.32.180;216.239.36.180;216.239.34.180,colab-alv.research.google.com,Google LLC (GOGL),US,Google
+colab.research.google.com,www,A,,-,,,Unknown
+kaggle.com,apex,A,35.244.233.98,-,Google LLC (GOOGL-2),US,Google
+kaggle.com,www,A,35.244.233.98,-,Google LLC (GOOGL-2),US,Google
+overleaf.com,apex,A,34.120.52.64,-,Google LLC (GOOGL-2),US,Google
+overleaf.com,www,A,lb2.overleaf.com;34.120.52.64,lb2.overleaf.com,Google LLC (GOOGL-2),US,Google
+regex101.com,apex,A,78.47.220.195,-,CLOUD-NBG1,DE,Unknown
+regex101.com,www,A,78.47.220.195,-,CLOUD-NBG1,DE,Unknown
+diagrams.net,apex,A,104.18.4.247;104.18.5.247,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
+diagrams.net,www,A,104.18.4.247;104.18.5.247,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
+codepen.io,apex,A,104.16.147.32;104.16.163.32,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare
+codepen.io,www,A,104.16.147.32;104.16.163.32,-,Cloudflare, Inc. (CLOUD14),US,Cloudflare

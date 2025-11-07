@@ -1,0 +1,15 @@
+hop,ip,hostname,org,country,location,avg_ms
+2,123.51.152.254,-,NCICNET-NET,TW,Taipei/Taiwan,8.446
+3,220.228.20.157,-,NCICNET-TW,TW,Taipei/Taiwan,6.484
+4,192.72.107.189,h189-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,5.724
+192.72.107.97,192.72.107.97,h97-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,8.848
+5,139.175.56.141,r56-141.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,9.150
+6,192.72.124.238,h238-192-72-124.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,8.429
+139.175.58.88,139.175.58.88,r58-88.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,6.300
+7,87.245.238.218,ae4-300.rt.cly.tpe.tw.retn.net,UK-RETN-20050824,GB,Taipei/Taiwan,28.801
+87.245.251.208,87.245.251.208,ae7-300.rt.cly.tpe.tw.retn.net,UK-RETN-20050824,GB,Taipei/Taiwan,23.812
+8,87.245.232.244,ae1-5.rt.irx.fkt.de.retn.net,UK-RETN-20050824,GB,Frankfurt am Main/Hesse,237.584
+9,78.47.243.250,static.250.243.47.78.clients.your-server.de,DE-HETZNER-20070416,DE,Köln/North Rhine-Westphalia,268.638
+87.245.245.114,87.245.245.114,gw-as24940.retn.net,UK-RETN-20050824,GB,Frankfurt am Main/Hesse,269.033
+10,213.239.252.26,core12.nbg1.hetzner.com,DE-HETZNER-20030528,DE,Nürnberg/Bavaria,271.192
+213.239.224.233,213.239.224.233,core11.nbg1.hetzner.com,HETZNER-ONLINE-AG,DE,Nürnberg/Bavaria,272.392

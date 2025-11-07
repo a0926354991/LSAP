@@ -1,0 +1,43 @@
+flowchart LR
+  classDef hop fill:#eef,stroke:#999,rx:10,ry:10;
+  N2["Hop 2\n123.51.152.254\n-\nNCICNET-NET\nTW Taipei/Taiwan\n801.199 ms"]:::hop
+  N3["Hop 3\n220.228.20.149\n-\nNCICNET-TW\nTW Taipei/Taiwan\n1096.033 ms"]:::hop
+  N2 --> N3
+  N220.228.20.157["Hop 220.228.20.157\n220.228.20.157\n-\nNCICNET-TW\nTW Taipei/Taiwan\n836.742 ms"]:::hop
+  N3 --> N220.228.20.157
+  N4["Hop 4\n192.72.107.189\nh189-192-72-107.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n727.853 ms"]:::hop
+  N220.228.20.157 --> N4
+  N5["Hop 5\n139.175.57.217\nr57-217.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n9.465 ms"]:::hop
+  N4 --> N5
+  N139.175.56.141["Hop 139.175.56.141\n139.175.56.141\nr56-141.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n11.021 ms"]:::hop
+  N5 --> N139.175.56.141
+  N139.175.57.185["Hop 139.175.57.185\n139.175.57.185\nr57-185.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n5.848 ms"]:::hop
+  N139.175.56.141 --> N139.175.57.185
+  N6["Hop 6\n139.175.59.163\nr59-163.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n13.643 ms"]:::hop
+  N139.175.57.185 --> N6
+  N139.175.58.202["Hop 139.175.58.202\n139.175.58.202\nr58-202.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n5.586 ms"]:::hop
+  N6 --> N139.175.58.202
+  N139.175.59.163["Hop 139.175.59.163\n139.175.59.163\nr59-163.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n11.821 ms"]:::hop
+  N139.175.58.202 --> N139.175.59.163
+  N7["Hop 7\n142.250.172.86\n-\nGOOGLE\nUS Taipei/Taiwan\n5.657 ms"]:::hop
+  N139.175.59.163 --> N7
+  N139.175.59.217["Hop 139.175.59.217\n139.175.59.217\nr59-217.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n9.781 ms"]:::hop
+  N7 --> N139.175.59.217
+  N8["Hop 8\n142.251.224.235\n-\nGOOGLE\nUS Taipei/Taiwan\n7.038 ms"]:::hop
+  N139.175.59.217 --> N8
+  N142.250.172.86["Hop 142.250.172.86\n142.250.172.86\n-\nGOOGLE\nUS Taipei/Taiwan\n8.548 ms"]:::hop
+  N8 --> N142.250.172.86
+  N142.251.224.235["Hop 142.251.224.235\n142.251.224.235\n-\nGOOGLE\nUS Taipei/Taiwan\n8.073 ms"]:::hop
+  N142.250.172.86 --> N142.251.224.235
+  N9["Hop 9\n74.125.242.253\n-\nGOOGLE\nUS Taipei/Taiwan\n7.880 ms"]:::hop
+  N142.251.224.235 --> N9
+  N209.85.243.197["Hop 209.85.243.197\n209.85.243.197\n-\nGOOGLE\nUS Taipei/Taiwan\n9.634 ms"]:::hop
+  N9 --> N209.85.243.197
+  N209.85.245.65["Hop 209.85.245.65\n209.85.245.65\n-\nGOOGLE\nUS New Taipei City/Taipei\n8.311 ms"]:::hop
+  N209.85.243.197 --> N209.85.245.65
+  N10["Hop 10\n209.85.245.65\n-\nGOOGLE\nUS New Taipei City/Taipei\n10.137 ms"]:::hop
+  N209.85.245.65 --> N10
+  N209.85.243.197["Hop 209.85.243.197\n209.85.243.197\n-\nGOOGLE\nUS Taipei/Taiwan\n6.901 ms"]:::hop
+  N10 --> N209.85.243.197
+  N142.250.66.78["Hop 142.250.66.78\n142.250.66.78\nhkg12s27-in-f14.1e100.net\nGOOGLE\nUS Taipei/Taiwan\n6.301 ms"]:::hop
+  N209.85.243.197 --> N142.250.66.78

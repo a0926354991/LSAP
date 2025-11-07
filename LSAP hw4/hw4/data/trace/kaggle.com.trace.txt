@@ -1,0 +1,49 @@
+
+; <<>> DiG 9.10.6 <<>> +trace kaggle.com
+;; global options: +cmd
+.			51486	IN	NS	f.root-servers.net.
+.			51486	IN	NS	a.root-servers.net.
+.			51486	IN	NS	j.root-servers.net.
+.			51486	IN	NS	c.root-servers.net.
+.			51486	IN	NS	b.root-servers.net.
+.			51486	IN	NS	e.root-servers.net.
+.			51486	IN	NS	k.root-servers.net.
+.			51486	IN	NS	l.root-servers.net.
+.			51486	IN	NS	d.root-servers.net.
+.			51486	IN	NS	i.root-servers.net.
+.			51486	IN	NS	h.root-servers.net.
+.			51486	IN	NS	g.root-servers.net.
+.			51486	IN	NS	m.root-servers.net.
+.			51524	IN	RRSIG	NS 8 0 518400 20251119210000 20251106200000 61809 . maXwJjHPWgbxF/OvIX+8WRjzX/tn1fcYF4ku2zyP49NjLHN6ZRnuW4jj 3hV3PW6x2K7l5coEPTlwpM+XQhGcloj5VM7m4U6VcyuJ6vY8VP70GEqX Pzu/49mePk63ThCvgilqQJTj3YBdN1+jSXmTrWLHOsAegOk4no6zZjJF ougMpWboQzPyvh+kb9tj18GDVXVYAPosISZSiB4FCICNhiAnk+qkeLFc vfw/4ahP4HercQReg3YPqVvxF+lE1s/9qeUGmUC6oiiThS3Gr2s94bvp 4N+22ME14Q/PHqVsZUglJhaULVpo04HM+cI6IBrqqvQhlsJ6rPLzLabw 0wz+Ow==
+;; Received 1109 bytes from 168.95.1.1#53(168.95.1.1) in 9 ms
+
+com.			172800	IN	NS	a.gtld-servers.net.
+com.			172800	IN	NS	b.gtld-servers.net.
+com.			172800	IN	NS	c.gtld-servers.net.
+com.			172800	IN	NS	d.gtld-servers.net.
+com.			172800	IN	NS	e.gtld-servers.net.
+com.			172800	IN	NS	f.gtld-servers.net.
+com.			172800	IN	NS	g.gtld-servers.net.
+com.			172800	IN	NS	h.gtld-servers.net.
+com.			172800	IN	NS	i.gtld-servers.net.
+com.			172800	IN	NS	j.gtld-servers.net.
+com.			172800	IN	NS	k.gtld-servers.net.
+com.			172800	IN	NS	l.gtld-servers.net.
+com.			172800	IN	NS	m.gtld-servers.net.
+com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291F2D3D7 71D7805A
+com.			86400	IN	RRSIG	DS 8 1 86400 20251120050000 20251107040000 61809 . FCZl662kpa0ykZNj1exvqw2xgiDMrD9qKhFtXseSAvCi6MV3RAqbMaj7 6qouHk3X3SrtX95APFMy0XrIE7q7QN1onshUZnqhZow4hvsGrf1A7RHw OmrYQeCwgn5EJPQxVBUB+yiDXTMxjOHcAJVsPnGjAK8dXZ1sHl662XcI S9JqmiFWVby+t5Q19X9SMB6PViQopi6h54lsAJ5sVPo6rPb1/VphGOHX bGt2LFeSdlyn2CBgrPupyE0Dyoj9a3JfCRzU4/YI7nV+vBxrLH4egHg1 2AlukeDJk7+wd6QcWVSAKOFxPfqDygiQ65Ml7K4B7UL9mtrSf50j2ves etM0EA==
+;; Received 1170 bytes from 193.0.14.129#53(k.root-servers.net) in 5 ms
+
+kaggle.com.		172800	IN	NS	ns-cloud-c1.googledomains.com.
+kaggle.com.		172800	IN	NS	ns-cloud-c2.googledomains.com.
+kaggle.com.		172800	IN	NS	ns-cloud-c3.googledomains.com.
+kaggle.com.		172800	IN	NS	ns-cloud-c4.googledomains.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN NSEC3 1 1 0 - CK0Q3UDG8CEKKAE7RUKPGCT1DVSSH8LL  NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 900 IN RRSIG NSEC3 13 2 900 20251111002637 20251103231637 46539 com. qil9G2NSHYVtUASYp5W8XlMim+ieLFJ/aWJROvBKJfsjLso2rCp+GY5N vzw13ee/+aYXc2ZmkHSCrjrqPWjmAQ==
+RMQV7FKIONTVOFEABBMTAHGAALG2K056.com. 900 IN NSEC3 1 1 0 - RMQVFUGTI5FQ8SGCHVFK2N2ICTV8PGSO  NS DS RRSIG
+RMQV7FKIONTVOFEABBMTAHGAALG2K056.com. 900 IN RRSIG NSEC3 13 2 900 20251114022410 20251107011410 46539 com. Aw/7RvaHs8xRvu6Ex0aEb1fpW5H6WjzRiuNyVyOynNc3IfsCpjugf1u0 OGT6FDkbUr72vmge1iROubbuub8tnQ==
+;; Received 690 bytes from 192.52.178.30#53(k.gtld-servers.net) in 251 ms
+
+kaggle.com.		3600	IN	A	35.244.233.98
+;; Received 55 bytes from 216.239.34.108#53(ns-cloud-c2.googledomains.com) in 49 ms
+

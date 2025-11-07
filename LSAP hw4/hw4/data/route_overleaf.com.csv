@@ -1,0 +1,14 @@
+hop,ip,hostname,org,country,location,avg_ms
+2,123.51.152.254,-,NCICNET-NET,TW,Taipei/Taiwan,7.160
+3,220.228.20.149,-,NCICNET-TW,TW,Taipei/Taiwan,5.887
+4,192.72.107.97,h97-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,7.235
+192.72.107.189,192.72.107.189,h189-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,7.101
+5,139.175.58.145,r58-145.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,7.527
+6,139.175.59.165,r59-165.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,4.628
+139.175.58.210,139.175.58.210,r58-210.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,5.946
+7,142.250.172.86,-,GOOGLE,US,Taipei/Taiwan,7.101
+139.175.59.217,139.175.59.217,r59-217.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,4.664
+142.250.172.86,142.250.172.86,-,GOOGLE,US,Taipei/Taiwan,7.926
+8,34.120.52.64,64.52.120.34.bc.googleusercontent.com,GOOGL-2,US,Kansas City/Missouri,5.940
+142.250.172.86,142.250.172.86,-,GOOGLE,US,Taipei/Taiwan,5.182
+34.120.52.64,34.120.52.64,64.52.120.34.bc.googleusercontent.com,GOOGL-2,US,Kansas City/Missouri,7.194

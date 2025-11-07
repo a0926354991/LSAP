@@ -1,0 +1,47 @@
+
+; <<>> DiG 9.10.6 <<>> +trace diagrams.net
+;; global options: +cmd
+.			75443	IN	NS	g.root-servers.net.
+.			75443	IN	NS	b.root-servers.net.
+.			75443	IN	NS	i.root-servers.net.
+.			75443	IN	NS	d.root-servers.net.
+.			75443	IN	NS	h.root-servers.net.
+.			75443	IN	NS	j.root-servers.net.
+.			75443	IN	NS	c.root-servers.net.
+.			75443	IN	NS	e.root-servers.net.
+.			75443	IN	NS	a.root-servers.net.
+.			75443	IN	NS	f.root-servers.net.
+.			75443	IN	NS	k.root-servers.net.
+.			75443	IN	NS	l.root-servers.net.
+.			75443	IN	NS	m.root-servers.net.
+.			75492	IN	RRSIG	NS 8 0 518400 20251120050000 20251107040000 61809 . WqQg4+VIPeCq6gfHKarlj55EkShYXLVUKiqrMVLEvDcZJ87CIBmSKgiO tEhrlr3JxD/0qP9s4qI9FHhVO01xWL1SbjJ7LqTEeiP/PvtoOoRjcgvw ULRtrOsF/mENPtNdEItkOf9x8ch4sNnznBV1UHseWbAHZpfUyiOhCkcF dG9OHVZqtjhtcSJG393AThARDru669+lN6MJVvL+mRww0ir5hBnIbM9L Z0BGzL4JoDmPOQm15zwaVW9SN5rZqnHKiy3L2w9UTMkPQchIggJUmfKX IMoaHVa31AuYvN1k8WjTANU2r6AOMlKPO84m2NFtENjO/UiU1K2D/2zV Wejodw==
+;; Received 1109 bytes from 168.95.1.1#53(168.95.1.1) in 9 ms
+
+net.			172800	IN	NS	l.gtld-servers.net.
+net.			172800	IN	NS	i.gtld-servers.net.
+net.			172800	IN	NS	b.gtld-servers.net.
+net.			172800	IN	NS	c.gtld-servers.net.
+net.			172800	IN	NS	a.gtld-servers.net.
+net.			172800	IN	NS	d.gtld-servers.net.
+net.			172800	IN	NS	k.gtld-servers.net.
+net.			172800	IN	NS	f.gtld-servers.net.
+net.			172800	IN	NS	h.gtld-servers.net.
+net.			172800	IN	NS	m.gtld-servers.net.
+net.			172800	IN	NS	e.gtld-servers.net.
+net.			172800	IN	NS	j.gtld-servers.net.
+net.			172800	IN	NS	g.gtld-servers.net.
+net.			86400	IN	DS	37331 13 2 2F0BEC2D6F79DFBD1D08FD21A3AF92D0E39A4B9EF1E3F4111FFF2824 90DA453B
+net.			86400	IN	RRSIG	DS 8 1 86400 20251120050000 20251107040000 61809 . UqMShiPcUbUHh4PBoW/tgw+Gjz4/2c6aXLARDnZPMDr+3L1srgAnvI+E HfEUuSaHZDn7uySCJSHM4HmGBxp7RtB1U+mzb8dJKYQ2NsGYkKq9CmmR +ccuRmvhvAGhN6Gp8K1ssfWoMr0+NDPiAC+yP/mV4BlQ/6e+G32OsGZl YSWPXVLx2/tAXVJW2PROuAgYK0Po90zRitNeNTqss5Wif0AS8Me5gnCQ qJ9lwDwANLMqcyrHO86ew5H3S5BhLdX7Ew/5st34+jFsbU8E3EhEKr+M omIHvXYBZr6y/hzETFa78nAONkHpvjD7bTxTQ7vaj4XkffrqiCGz5Ppa B0G4og==
+;; Received 1172 bytes from 192.112.36.4#53(g.root-servers.net) in 84 ms
+
+diagrams.net.		172800	IN	NS	amy.ns.cloudflare.com.
+diagrams.net.		172800	IN	NS	phil.ns.cloudflare.com.
+diagrams.net.		86400	IN	DS	2371 13 2 DEE93DFD682D973C88542DBD05F0F0F28AA646F0BD08A4562FF2E210 B828884A
+diagrams.net.		86400	IN	RRSIG	DS 13 2 86400 20251114030916 20251107015916 17133 net. CE1/sAne1LSLCkNxYRb8zFumrxv3m3JjalU2/ShBxEVUBCSsnsV7w6kS MVBbdwWcZxNAxRuK0p80JlhXoNRQVw==
+;; Received 242 bytes from 192.52.178.30#53(k.gtld-servers.net) in 302 ms
+
+diagrams.net.		300	IN	A	104.18.4.247
+diagrams.net.		300	IN	A	104.18.5.247
+diagrams.net.		300	IN	RRSIG	A 13 2 300 20251108095402 20251106075402 34505 diagrams.net. REqnFiGA/UKrSiV5GntyjxfsiZ5VlfabMoZLF06d2rVELWwBpbqsRXb5 cBj5VwsFTIB54dde28tkM0fMDTlUhA==
+;; Received 181 bytes from 173.245.59.137#53(phil.ns.cloudflare.com) in 6 ms
+

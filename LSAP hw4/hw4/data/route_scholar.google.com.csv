@@ -1,0 +1,16 @@
+hop,ip,hostname,org,country,location,avg_ms
+2,123.51.152.254,-,NCICNET-NET,TW,Taipei/Taiwan,12.342
+3,220.228.20.157,-,NCICNET-TW,TW,Taipei/Taiwan,7.249
+220.228.20.149,220.228.20.149,-,NCICNET-TW,TW,Taipei/Taiwan,11.438
+4,192.72.107.97,h97-192-72-107.seed.net.tw,APNIC-ERX-192-72-3-0,AU,Taipei/Taiwan,13.371
+5,139.175.56.141,r56-141.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,8.377
+139.175.58.145,139.175.58.145,r58-145.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,6.747
+6,139.175.59.165,r59-165.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,8.951
+7,139.175.59.217,r59-217.seed.net.tw,APNIC-ERX-139-175-0-0,AU,Taipei/Taiwan,13.162
+8,74.125.243.3,-,GOOGLE,US,Taipei/Taiwan,47.047
+142.250.172.86,142.250.172.86,-,GOOGLE,US,Taipei/Taiwan,12.449
+9,74.125.243.3,-,GOOGLE,US,Taipei/Taiwan,10.767
+142.251.77.87,142.251.77.87,-,GOOGLE,US,Taipei/Taiwan,5.619
+74.125.242.255,74.125.242.255,-,GOOGLE,US,Taipei/Taiwan,6.226
+10,142.250.196.196,nctsaa-ac-in-f4.1e100.net,GOOGLE,US,Banqiao/Taipei,9.750
+142.251.77.87,142.251.77.87,-,GOOGLE,US,Taipei/Taiwan,11.591

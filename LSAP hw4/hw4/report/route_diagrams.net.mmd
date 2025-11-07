@@ -1,0 +1,25 @@
+flowchart LR
+  classDef hop fill:#eef,stroke:#999,rx:10,ry:10;
+  N2["Hop 2\n123.51.152.254\n-\nNCICNET-NET\nTW Taipei/Taiwan\n38.901 ms"]:::hop
+  N3["Hop 3\n220.228.20.157\n-\nNCICNET-TW\nTW Taipei/Taiwan\n38.154 ms"]:::hop
+  N2 --> N3
+  N220.228.20.149["Hop 220.228.20.149\n220.228.20.149\n-\nNCICNET-TW\nTW Taipei/Taiwan\n36.188 ms"]:::hop
+  N3 --> N220.228.20.149
+  N4["Hop 4\n192.72.107.97\nh97-192-72-107.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n69.562 ms"]:::hop
+  N220.228.20.149 --> N4
+  N5["Hop 5\n139.175.56.141\nr56-141.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n205.349 ms"]:::hop
+  N4 --> N5
+  N139.175.57.217["Hop 139.175.57.217\n139.175.57.217\nr57-217.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n317.550 ms"]:::hop
+  N5 --> N139.175.57.217
+  N6["Hop 6\n139.175.59.161\nr59-161.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n319.303 ms"]:::hop
+  N139.175.57.217 --> N6
+  N139.175.59.165["Hop 139.175.59.165\n139.175.59.165\nr59-165.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n192.413 ms"]:::hop
+  N6 --> N139.175.59.165
+  N139.175.58.210["Hop 139.175.58.210\n139.175.58.210\nr58-210.seed.net.tw\nAPNIC-ERX-139-175-0-0\nAU Taipei/Taiwan\n27.853 ms"]:::hop
+  N139.175.59.165 --> N139.175.58.210
+  N7["Hop 7\n192.72.124.29\nh29-192-72-124.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n12.998 ms"]:::hop
+  N139.175.58.210 --> N7
+  N192.72.124.107["Hop 192.72.124.107\n192.72.124.107\nh107-192-72-124.seed.net.tw\nAPNIC-ERX-192-72-3-0\nAU Taipei/Taiwan\n4.487 ms"]:::hop
+  N7 --> N192.72.124.107
+  N8["Hop 8\n104.18.4.247\n-\nCLOUDFLARENET\nUS San Francisco/California\n13.024 ms"]:::hop
+  N192.72.124.107 --> N8
